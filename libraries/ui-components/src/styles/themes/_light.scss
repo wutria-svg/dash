@@ -1,0 +1,7 @@
+@use '../tokens/colors' as *;
+
+:root {
+  --nova-primary: #{$nova-color-primary};
+  --nova-text: #{$nova-color-text};
+  --nova-background: #{$nova-color-background};
+}
