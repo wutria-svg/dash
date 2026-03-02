@@ -1,0 +1,11 @@
+{
+  "name": "nova-ui-components",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Base Atomic Design para librería de componentes Angular estilo empresarial.",
+  "scripts": {
+    "check:structure": "test -f libraries/ui-components/src/lib/index.ts && test -f docs/atomic-design.md",
+    "check:branches": "git branch --list",
+    "check:remote": "git remote -v | grep origin"
+  }
+}
