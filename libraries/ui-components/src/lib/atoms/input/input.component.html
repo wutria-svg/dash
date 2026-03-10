@@ -1,0 +1,7 @@
+<input
+  class="nova-input"
+  [attr.data-size]="size"
+  [placeholder]="placeholder"
+  [disabled]="disabled"
+  [value]="value"
+  (input)="onInput(($any($event.target)).value)" />
