@@ -1,0 +1,33 @@
+.nova-button {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+}
+
+.nova-button[data-size='sm'] { font-size: 0.75rem; }
+.nova-button[data-size='md'] { font-size: 0.875rem; }
+.nova-button[data-size='lg'] { font-size: 1rem; }
+
+.nova-button[data-variant='filled'] {
+  background: #1677ff;
+  color: #fff;
+}
+
+.nova-button[data-variant='outlined'] {
+  background: #fff;
+  border-color: #1677ff;
+  color: #1677ff;
+}
+
+.nova-button[data-variant='text'] {
+  background: transparent;
+  color: #1677ff;
+}
+
+.nova-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

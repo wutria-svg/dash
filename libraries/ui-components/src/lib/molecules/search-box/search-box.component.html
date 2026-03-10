@@ -1,0 +1,8 @@
+<div class="nova-search-box">
+  <nova-icon name="search" />
+  <nova-input
+    [placeholder]="placeholder"
+    [value]="value"
+    (valueChange)="onValueChange($event)" />
+  <nova-button label="Buscar" (pressed)="onSearch()" />
+</div>

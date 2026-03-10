@@ -1,0 +1,6 @@
+<div class="nova-form-field">
+  <label class="nova-form-field__label">{{ label }}</label>
+  <ng-content />
+  <small class="nova-form-field__help" *ngIf="!errorText">{{ helperText }}</small>
+  <small class="nova-form-field__error" *ngIf="errorText">{{ errorText }}</small>
+</div>

@@ -70,3 +70,10 @@ Composición final de templates + organismos para demos/documentación.
   - `index.ts`
 - Exports centralizados con barrels por capa.
 - Inputs/Outputs tipados y sin lógica de negocio.
+
+
+## Componentes base implementados
+
+- Átomos: `NovaButtonComponent`, `NovaInputComponent`, `NovaIconComponent`, `NovaBadgeComponent`.
+- Moléculas: `NovaSearchBoxComponent`, `NovaFormFieldComponent`.
+- Todos los componentes fueron creados como `standalone` y exportados desde barrels por capa.
